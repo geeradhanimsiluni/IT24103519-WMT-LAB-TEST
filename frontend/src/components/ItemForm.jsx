@@ -56,14 +56,14 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       <label>Image URL</label>
       <input name="imageUrl" value={formData.imageUrl} onChange={handleChange} />
 
-      <lable>Temperature Requirement </lable>
-      <input
-        type="string"
-         name="temperatureRequirement "
-         value={formData.temperatureRequirement}
-         onChange={handleChange}
-         required
-         />
+     <label>Temperature Requirement</label>
+<input
+  type="text"
+  name="temperatureRequirement"
+  value={formData.temperatureRequirement}
+  onChange={handleChange}
+  required
+/>
       
 
       <button className="btn primary" type="submit">{submitText}</button>
