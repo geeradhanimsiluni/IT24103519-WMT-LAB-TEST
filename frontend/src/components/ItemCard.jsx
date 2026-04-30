@@ -12,7 +12,7 @@ function ItemCard({ item, onDelete }) {
       <p><strong>Category:</strong> {item.category}</p>
       <p><strong>Price:</strong> ${item.price}</p>
       <p>{item.description}</p>
-      <p><strong>Temperature Requirement:</strong>{item.temperatureRequirement} </p>
+      <p><strong>Temperature Requirement:</strong>{item.temperaturerequirement} </p>
 
       <div className="card-actions">
         <Link className="btn secondary" to={`/edit-item/${item._id}`}>Edit</Link>
