@@ -27,10 +27,10 @@ const itemSchema = new mongoose.Schema(
       default: "",
       trim: true,
     },
-    TemperatureRequirement :{
+    temperatureRequirement :{
        type: String,
        required:[true,"Temperature Requirement is required"],
-       trim:true,
+       trim: true,
     },
   },
   { timestamps: true }

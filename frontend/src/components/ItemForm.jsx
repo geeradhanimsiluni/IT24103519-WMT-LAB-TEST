@@ -8,7 +8,7 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       price: "",
       description: "",
       imageUrl: "",
-      TemperatureRequirement: "",
+      temperatureRequirement: "",
     }
   );
 
@@ -59,8 +59,8 @@ function ItemForm({ initialValues, onSubmit, submitText }) {
       <lable>Temperature Requirement </lable>
       <input
         type="string"
-         name="Temperature Requirement "
-         value={formData.TemperatureRequirement}
+         name="temperatureRequirement "
+         value={formData.temperatureRequirement}
          onChange={handleChange}
          required
          />
